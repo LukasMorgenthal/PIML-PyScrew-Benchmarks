@@ -107,7 +107,7 @@ https://github.com/navidfoumani/convtran
 UniShape:
 https://github.com/ZLiu21/UniShape
 
-The files must be inserted to the designated locations. See architecture.
+The files must be inserted to the designated locations. Be sure to pay attention to the naming convention. See architecture.
 
 In order to run TabPFN, you need a completely free token of TabPFN/huggingface to run it. To use it, you need to insert your key in the UniShape.ipynb.
 ```python
