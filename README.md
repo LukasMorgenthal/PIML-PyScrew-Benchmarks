@@ -8,6 +8,25 @@ This repository contains the codebase, Jupyter Notebooks, Docker configurations,
 The project is split into two seperate, fully isolated environment to prevent any dependencies conflicts. The Benchmark of UniShape needs different environment dependencies, therefore for unishape a separate Dockerfile and requirements is needed. Therefore the Unishape benchmark is completely separated in this repository.
 
 # Repository Architecture
+|---PIML_Features
+|--different PIML Feature approaches
+|---PIML_Loss
+|--different PIML Loss approaches
+|---ConvTran* <--- must be inserted, see instructions
+|---Time-Series-Library* <--- must be inserted, see instructions
+|---UniShape* <-- must be inserted, see instructions
+|-ConvTran.ipynb
+|-Dockerfile
+|-FourierNeuralOperator.ipynb
+|-InceptionTime.ipynb
+|-README.md
+|-RF-MLP.ipynb
+|-TabPFN.ipynb
+|-TabPFN.ipynb
+|-TimesNet.ipynb
+|-Transformer-AllYouNeedIsAttention.ipynb
+|-Untersuchungen.ipynb
+|-requirements.txt
 
 # How to run - Instructions
 The databases are zipped in the folder .\data. You need to unzip them. 
