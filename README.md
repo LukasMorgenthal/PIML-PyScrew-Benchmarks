@@ -131,8 +131,8 @@ docker build -f Dockerfile_Unishape -t unishape-benchmarks .
 docker run -it --rm --gpus all -p 8888:8888 -v "%cd%:/workspace" --name unishape-run unishape-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="unishape2026"
 ```
 
-
-
+________________________________________________________________________________
+As soon as this setup are prepared, the underlying files are working. 
 
 
 
