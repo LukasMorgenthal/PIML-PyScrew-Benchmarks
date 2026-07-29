@@ -60,7 +60,7 @@ The repository is structured as follows:
 ├── screw_data_s02-v1.pkl                        
 │   └── must be inserted 
 |
-├── screw_data_s02-v2_identival-to-v1.pkl                        
+├── screw_data_s02-v2_identical-to-v1.pkl                        
 │   └── must be inserted
 │
 ├── requirements.txt                  
@@ -93,7 +93,7 @@ import pandas as pd
 data = pyscrew.get_data(scenario="s02", handle_duplicates="first", handle_missings="mean", force_download=True, target_length=800)
 df = pd.DataFrame(data)
 df.to_pickle("screw_data_s02-v1.pkl")
-df.to_pickle("screw_data_s02-v2_identival-to-v1.pkl ")
+df.to_pickle("screw_data_s02-v2_identical-to-v1.pkl ")
 ```
 
 
