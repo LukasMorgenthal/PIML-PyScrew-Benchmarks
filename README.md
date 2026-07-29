@@ -80,7 +80,7 @@ docker build -t thesis-benchmarks .
 docker run -it --rm -p 8888:8888 -v "%cd%:/workspace" --name thesis-run thesis-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="thesis2026"
 ```
 
-# Database Setup
+# Database and file Setup
 The database comes from mikolaiwest PyScrew screwdriving experimentations. More information on the PyScrew data and Repository is available here: https://github.com/nikolaiwest/pyscrew
 
 In order to create the exact database and to run the files, you need to create the pickle databases.
@@ -108,6 +108,15 @@ UniShape:
 https://github.com/ZLiu21/UniShape
 
 The files must be inserted to the designated locations. See architecture.
+
+In order to run TabPFN, you need a completely free token of TabPFN/huggingface to run it. To use it, you need to insert your key in the UniShape.ipynb.
+```python
+from tabpfn_client import TabPFNClassifier, set_access_token
+
+set_access_token("YOUR_TOKEN")
+```
+
+
 
 
 
