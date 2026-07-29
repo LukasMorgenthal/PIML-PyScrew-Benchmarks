@@ -121,12 +121,12 @@ set_access_token("YOUR_TOKEN")
 ```
 
 # How to run the Unishape_docker
-> Building docker image
+> Building docker image for UniShape
 ```bash
 docker build -f Dockerfile_Unishape -t unishape-benchmarks .
 ```
 
-> Running docker image and opened via http://localhost:8888/lab?token=unishape2026 in your browser
+> Running docker image and open via http://localhost:8888/lab?token=unishape2026 in your browser
 ```bash
 docker run -it --rm --gpus all -p 8888:8888 -v "%cd%:/workspace" --name unishape-run unishape-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="unishape2026"
 ```
