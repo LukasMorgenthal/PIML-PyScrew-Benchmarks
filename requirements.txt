@@ -1,0 +1,8 @@
+matplotlib==3.11.0
+numpy==2.4.6
+pandas==2.2.3
+pyscrew==1.2.2
+scikit-learn==1.9.0
+tabpfn==8.1.0
+tabpfn_client==0.3.3
+torch==2.5.1
