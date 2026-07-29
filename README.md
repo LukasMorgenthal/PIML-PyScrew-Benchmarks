@@ -5,7 +5,7 @@ This repository contains the codebase, Jupyter Notebooks, Docker configurations,
 > To run the models, you must follow instructions, to install important files and getting a key, from huggingface for running TabPFN.
 
 # Repository Structure
-The project is split into two seperate, fully isolated environment to prevent any dependencies conflicts. The Benchmark of UniShape needs different environment dependencies, therefore for unishape a separate Dockerfile and requirements is needed.
+The project is split into two seperate, fully isolated environment to prevent any dependencies conflicts. The Benchmark of UniShape needs different environment dependencies, therefore for unishape a separate Dockerfile and requirements is needed. Therefore the Unishape benchmark is completely separated in this repository.
 
 # Repository Architecture
 
