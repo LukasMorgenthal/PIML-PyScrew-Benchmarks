@@ -19,23 +19,45 @@ The repository is structured as follows:
 ├── PIML_Loss/
 │   └── Different physics-informed loss approaches
 │
-├── ConvTran/                         ← Insert external repository (see instructions)
-├── Time-Series-Library/              ← Insert external repository (see instructions)
-├── UniShape/                         ← Insert external repository (see instructions)
+├── ConvTran/                         
+│   └── External repository (see instructions)
 │
-├── ConvTran.ipynb                    ← ConvTran experiment
-├── FourierNeuralOperator.ipynb       ← Fourier Neural Operator experiment
-├── InceptionTime.ipynb                ← InceptionTime experiment
-├── RF-MLP.ipynb                      ← Classical ML baselines
-├── TabPFN.ipynb                      ← Foundation model experiment
-├── TimesNet.ipynb                    ← TimesNet experiment
+├── Time-Series-Library/              
+│   └── External repository (see instructions)
+│
+├── UniShape/                         
+│   └── External repository (see instructions)
+│
+├── ConvTran.ipynb                    
+│   └── ConvTran experiment
+│
+├── FourierNeuralOperator.ipynb       
+│   └── Fourier Neural Operator experiment
+│
+├── InceptionTime.ipynb                
+│   └── InceptionTime experiment
+│
+├── RF-MLP.ipynb                      
+│   └── Classical ML baselines
+│
+├── TabPFN.ipynb                      
+│   └── Foundation model experiment
+│
+├── TimesNet.ipynb                    
+│   └── TimesNet experiment
+│
 ├── Transformer-AllYouNeedIsAttention.ipynb
-│                                    ← Transformer baseline
+│   └── Transformer baseline
 │
-├── Untersuchungen.ipynb              ← Additional analysis
+├── Untersuchungen.ipynb              
+│   └── Additional analysis
 │
-├── Dockerfile                        ← Reproducible environment
-├── requirements.txt                  ← Python dependencies
+├── Dockerfile                        
+│   └── Reproducible environment
+│
+├── requirements.txt                  
+│   └── Python dependencies
+│
 └── README.md
 ```
 
