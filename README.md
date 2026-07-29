@@ -15,11 +15,11 @@ The repository is structured as follows:
 .
 ├── PIML_Features/
 │   └── Different physics-informed feature approaches
-│   └── screw_data_s02-v2_identival-to-v1.pkl  (must be transfered into this file)
+│   └── screw_data_s02-v2_identival-to-v1.pkl  (must be transfered into this file, see instructions)
 │
 ├── PIML_Loss/
 │   └── Different physics-informed loss approaches
-│   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file)
+│   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file, see instructions)
 │
 ├── ConvTran/                         
 │   └── External repository (must be inserted, see instructions)
@@ -58,10 +58,10 @@ The repository is structured as follows:
 │   └── Reproducible environment for Benchmarks, Features and Losses, excluding UniShape Benchmark
 |
 ├── screw_data_s02-v1.pkl                        
-│   └── must be inserted 
+│   └── must be inserted, see instructions
 |
 ├── screw_data_s02-v2_identical-to-v1.pkl                        
-│   └── must be inserted
+│   └── must be inserted, see instructions
 │
 ├── requirements.txt                  
 │   └── Python dependencies for Benchmarks, Features and Losses, excluding UniShape Benchmark
