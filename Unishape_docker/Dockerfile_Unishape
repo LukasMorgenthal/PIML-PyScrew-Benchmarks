@@ -1,0 +1,16 @@
+FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+
+WORKDIR /workspace
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements_unishape.txt .
+
+RUN pip install --no-cache-dir -r requirements_unishape.txt
+
+RUN pip install --no-cache-dir jupyterlab
+
+EXPOSE 8888
+
