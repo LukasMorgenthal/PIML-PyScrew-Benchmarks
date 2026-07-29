@@ -58,10 +58,10 @@ The repository is structured as follows:
 │   └── Reproducible environment
 |
 ├── screw_data_s02-v1.pkl                        
-│   └── must be inserted, from data/screw_data_s02-v1.zip
+│   └── must be inserted 
 |
 ├── screw_data_s02-v2_identival-to-v1.pkl                        
-│   └── must be inserted, from data/screw_data_s02-v2_identical-to-v1.zip
+│   └── must be inserted
 │
 ├── requirements.txt                  
 │   └── Python dependencies
