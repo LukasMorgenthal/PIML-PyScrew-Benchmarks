@@ -83,5 +83,17 @@ docker build -t thesis-benchmarks .
 docker run -it --rm -p 8888:8888 -v "%cd%:/workspace" --name thesis-run thesis-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="thesis2026"
 ```
 
+# Database Setup
+The database comes from mikolaiwest PyScrew screwdriving experimentations. More information on the PyScrew data and Repository is available here: https://github.com/nikolaiwest/pyscrew
+
+In order to create the exact database and to run the files, you need to create the pickle databases.
+```python
+import pyscrew
+import pandas as pd
+data = pyscrew.get_data(scenario="s02", handle_duplicates="first", handle_missings="mean", force_download=True, target_length=800)
+df = pd.DataFrame(data)
+df.to_pickle("screw_data_s02-v1.pkl")
+df.to_pickle("screw_data_s02-v2_identival-to-v1.pkl ")
+```
 
 
