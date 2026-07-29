@@ -55,7 +55,7 @@ The repository is structured as follows:
 │   └── Additional analysis
 │
 ├── Dockerfile                        
-│   └── Reproducible environment
+│   └── Reproducible environment for Benchmarks, Features and Losses, excluding UniShape Benchmark
 |
 ├── screw_data_s02-v1.pkl                        
 │   └── must be inserted 
@@ -64,7 +64,7 @@ The repository is structured as follows:
 │   └── must be inserted
 │
 ├── requirements.txt                  
-│   └── Python dependencies
+│   └── Python dependencies for Benchmarks, Features and Losses, excluding UniShape Benchmark
 │
 └── README.md
 ```
