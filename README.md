@@ -17,6 +17,7 @@ Then you need to place **screw_data_s02-v2_identical-to-v1.pkl** in
 ```bash
 docker build -t thesis-benchmarks .
 ```
+
 > Running docker image and opened via http://localhost:8888/lab?token=thesis2026 in your browser
 ```bash
 docker run -it --rm -p 8888:8888 -v "%cd%:/workspace" --name thesis-run thesis-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="thesis2026"
