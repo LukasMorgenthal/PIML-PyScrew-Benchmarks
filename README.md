@@ -22,13 +22,13 @@ The repository is structured as follows:
 │   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file)
 │
 ├── ConvTran/                         
-│   └── External repository (see instructions)
+│   └── External repository (must be inserted, see instructions)
 │
 ├── Time-Series-Library/              
-│   └── External repository (see instructions)
+│   └── External repository (must be inserted, see instructions)
 │
 ├── UniShape/                         
-│   └── External repository (see instructions)
+│   └── External repository (must be inserted, see instructions)
 │
 ├── ConvTran.ipynb                    
 │   └── ConvTran experiment
