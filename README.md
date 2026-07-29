@@ -13,12 +13,13 @@ The project is split into two seperate, fully isolated environment to prevent an
 The databases are zipped in the folder .\data. You need to unzip them. 
 Then you need to place **screw_data_s02-v2_identical-to-v1.pkl** in 
 
-Building docker image
+## Building docker image
 ```bash
 docker build -t thesis-benchmarks .
 ```
-
-
+```bash
+docker run -it --rm -p 8888:8888 -v "%cd%:/workspace" --name thesis-run thesis-benchmarks jupyter lab --ip=0.0.0.0 --allow-root --no-browser --ServerApp.token="thesis2026"
+```
 
 
 
