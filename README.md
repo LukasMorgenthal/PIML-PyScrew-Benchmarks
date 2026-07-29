@@ -93,4 +93,12 @@ df.to_pickle("screw_data_s02-v1.pkl")
 df.to_pickle("screw_data_s02-v2_identical-to-v1.pkl ")
 ```
 
+The pickle files must be inserted to the designated locations. See architecture.
+
+# Extern File and Repositories Setup
+https://github.com/thuml/Time-Series-Library
+https://github.com/navidfoumani/convtran
+https://github.com/ZLiu21/UniShape
+The files must be inserted to the designated locations. See architecture.
+
 
