@@ -96,9 +96,15 @@ df.to_pickle("screw_data_s02-v2_identical-to-v1.pkl ")
 The pickle files must be inserted to the designated locations. See architecture.
 
 # Extern File and Repositories Setup
+The extern files come directly from the following repositories.
+Time-Series-Library:
 https://github.com/thuml/Time-Series-Library
+ConvTran:
 https://github.com/navidfoumani/convtran
+UniShape:
 https://github.com/ZLiu21/UniShape
 The files must be inserted to the designated locations. See architecture.
+
+
 
 
