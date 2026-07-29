@@ -27,8 +27,12 @@ The repository is structured as follows:
 ├── Time-Series-Library/              
 │   └── External repository (must be inserted, see instructions)
 │
-├── UniShape/                         
-│   └── External repository (must be inserted, see instructions)
+├── Unishape_docker/
+│   └── Unishape_docker/UniShape (External repository must be inserted, see instructions)                        
+│   └── UniShape.jpynb
+│   └── Dockerfile_Unishape
+│   └── requirements.unishape.txt
+│   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file, see instructions)
 │
 ├── ConvTran.ipynb                    
 │   └── ConvTran experiment
