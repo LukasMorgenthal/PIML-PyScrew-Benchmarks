@@ -132,7 +132,7 @@ docker run -it --rm --gpus all -p 8888:8888 -v "%cd%:/workspace" --name unishape
 ```
 
 ________________________________________________________________________________
-As soon as this setup are prepared, the underlying files are working. 
+***As soon as this setup is prepared, the underlying files are working.*** 
 
 
 
