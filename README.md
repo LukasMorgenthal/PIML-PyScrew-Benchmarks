@@ -69,10 +69,7 @@ The repository is structured as follows:
 └── README.md
 ```
 
-# How to run - Instructions
-The databases are zipped in the folder .\data. You need to unzip them. 
-Then you need to place **screw_data_s02-v2_identical-to-v1.pkl** in 
-
+# How to create the Docker image
 > Building docker image
 ```bash
 docker build -t thesis-benchmarks .
