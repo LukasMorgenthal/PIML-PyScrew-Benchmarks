@@ -121,7 +121,7 @@ set_access_token("YOUR_TOKEN")
 ```
 
 # How to run the Unishape_docker
-> Building docker image for UniShape
+> Building docker image for UniShape. Navigate to Unishape_docker and build image.
 ```bash
 docker build -f Dockerfile_Unishape -t unishape-benchmarks .
 ```
