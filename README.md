@@ -20,9 +20,6 @@ The repository is structured as follows:
 ├── PIML_Loss/
 │   └── Different physics-informed loss approaches
 │   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file)
-|
-├── data/
-│   └── Includes databases as zip files. Must be unzipped and transfered to designated locations
 │
 ├── ConvTran/                         
 │   └── External repository (see instructions)
