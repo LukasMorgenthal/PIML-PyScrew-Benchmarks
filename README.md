@@ -15,9 +15,14 @@ The repository is structured as follows:
 .
 ├── PIML_Features/
 │   └── Different physics-informed feature approaches
+│   └── screw_data_s02-v2_identival-to-v1.pkl  (must be transfered into this file)
 │
 ├── PIML_Loss/
 │   └── Different physics-informed loss approaches
+│   └── screw_data_s02-v2_identival-to-v1.pkl (must be transfered into this file)
+|
+├── data/
+│   └── Includes databases as zip files. Must be unzipped and transfered to designated locations
 │
 ├── ConvTran/                         
 │   └── External repository (see instructions)
@@ -54,6 +59,12 @@ The repository is structured as follows:
 │
 ├── Dockerfile                        
 │   └── Reproducible environment
+|
+├── screw_data_s02-v1.pkl                        
+│   └── must be inserted, from data/screw_data_s02-v1.zip
+|
+├── screw_data_s02-v2_identival-to-v1.pkl                        
+│   └── must be inserted, from data/screw_data_s02-v2_identical-to-v1.zip
 │
 ├── requirements.txt                  
 │   └── Python dependencies
