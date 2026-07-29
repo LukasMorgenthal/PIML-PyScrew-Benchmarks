@@ -1,5 +1,5 @@
 # PIML-PyScrew-Benchmarks
-This repository contains the codebase, Jupyter Notebooks, Docker configurations, and environment requirements for the machine learning models developed during this Master's thesis for the investigation, if Physics informed Machine Learning can improve the classification task in screw driving processes.
+This repository contains the codebase, Jupyter Notebooks, Docker configurations, and environment requirements for the machine learning models developed during this Master's thesis for the investigation, if Physics informed Machine Learning can improve the classification task in screw driving processes and which architecture are best designed for this task. 
 
 > **Important Note on Data & Complete Run:** > Due to file size limitations (e.g., large datasets and model weights), this GitHub repository contains **only the pure codebase** (Notebooks, Dockerfiles, and dependencies). 
 > To run the models, you must follow instructions, to install important files and getting a key, from huggingface for running TabPFN.
